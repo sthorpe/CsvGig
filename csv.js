@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
-var ethers = require('ethers');
+const ethers = require('ethers');
 
 function isHex(num) {
   return Boolean(num.match(/^0x[0-9a-f]+$/i))
